@@ -1,0 +1,31 @@
+.modernCheckbox {
+	cursor: hand;
+}
+.modernCheckbox_placeholder.modernCheckbox_chkbx {
+	display: none;
+}
+.modernCheckbox_placeholder.modernCheckbox_lbl {
+	background-image: url('img/wizard-checkbox-sprite.png');
+	background-size: 14px;
+	background-repeat: no-repeat;
+	padding-left: 18px;
+	cursor: hand;
+}
+.modernCheckbox_placeholder.modernCheckbox_lbl.modernCheckbox_big {
+	background-size: 18px;
+	padding-left: 22px;
+}
+.modernCheckbox_placeholder.modernCheckbox_lbl.modernCheckbox_unchecked
+	{
+	background-position: 0px 2px;
+}
+.modernCheckbox_placeholder.modernCheckbox_lbl.modernCheckbox_checked {
+	background-position: 0px -30px;
+}
+.modernCheckbox_placeholder.modernCheckbox_lbl.modernCheckbox_indeterminated
+	{
+	background-position: 0px -14px;
+}
+.modernCheckbox_placeholder.modernCheckbox_lbl:hover {
+	text-decoration: underline;
+}
